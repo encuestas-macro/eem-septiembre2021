@@ -1,0 +1,159 @@
+body{
+  font-size: 16px;
+  margin-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  display: flex;
+  margin-top: 10px;
+}
+
+.imagen, .title {
+  display: inline-block;
+}
+
+.imagen{
+  width: 16rem;
+}
+
+.title {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+.title > p {
+  font-size: 20px; 
+  color: #7f5d00;
+  text-align: center;
+  display: inline-block;
+}
+
+.title > h2 {
+  
+}
+
+.head-ruler {
+  display: block;
+  margin:0.5em auto;
+  border:3px solid #7f5d00;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.85rem;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+}
+
+.inflacion-container, .tc-container, .pib-container, .covid-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.secondl {
+ bottom: 75px;
+ position: relative;
+}
+
+.right {
+  width: 55%;
+}
+
+ .left {
+   width: 40%;
+ }
+ 
+ h2{
+   font-size:2.8rem;
+   font-weight: 700;
+   text-align: center;
+ }
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-weight: 600;
+}
+
+h4 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.btn-secondary {
+ background-color:gray;
+ color: white;
+}
+
+.footer {
+  background-color:  #7f5d00;
+}
+
+@media only screen and (max-width: 1024px) {
+  
+  .header {
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .right img {
+    margin: 0 auto;
+    }
+  
+  .imagen{
+  display: block;
+  margin: 0 auto;
+  /*width: 30%;*/
+  }
+  
+  .imagen img {
+   display: block; 
+   width: 300px;
+   margin: auto;
+  }
+  
+
+  .right div {
+    margin:0 auto;
+  }
+  
+  .graph-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  }
+  
+  .title{
+    width: 100%;
+    text-align: center;
+    position: static;
+    top: 0;
+    }
+  
+
+  .inflacion-container, .tc-container, .pib-container, .covid-container {
+  width: 100%;
+  display: block;
+  }
+  
+  .right {
+  width: 100%;
+  }
+
+ .left {
+   width: 100%;
+ }
+ 
+ .secondl {
+ bottom: 110px;
+ position: static;
+}
+
+}
